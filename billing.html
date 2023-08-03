@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Billing calculating System</h1>
+    <label for="qty">Quantity</label>
+    <input type="number" id="qty">
+    <label for="unitPrice">UnitPrice</label>
+    <input type="number" id="unitPrice"><br><br>
+    <button onclick="calculate()">Calucalte Bill</button>
+    <button onclick="print()">Print</button>
+    <strong>Total Bill <span id="total"></span></strong>
+    <script>
+        function calculate(){
+            let qty=document.getElementById('qty').value;
+            let unitPrice=document.getElementById('unitPrice').value;
+            console.log(qty);
+            console.log(unitPrice);
+            let total=qty*unitPrice;
+            console.log(total);
+            document.getElementById('total').innerHTML=total;
+        }
+    </script>
+</body>
+</html>

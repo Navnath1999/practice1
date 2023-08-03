@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Netflix</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <style>
+        img{
+            padding: 10px 0px 0px 30px;
+        }
+        li{
+            display: inline;
+            float: right;
+            padding: 10px;
+        }
+        .b1{
+            background-color: red;
+            color:white;
+            border: none;
+            border-radius: 3px;
+            padding: 5px 15px;
+            font-size: 15px;
+        }
+        select{
+            background-color: rgba(0, 0,0,0.4); 
+            color: aliceblue;
+        }
+        option{
+            border-radius: 0px;
+        }
+        .b2{
+            background-color: red;
+            color:white;
+            border: none;
+            border-radius: 3px;
+            padding: 5px 15px;
+            font-size: 15px;
+            text-transform: uppercase;
+        }
+        .p1{
+            color:white;
+            font-size: 100px;
+            margin-bottom: 15px;
+        }
+        .p2{
+             text-transform: uppercase;
+             font-size: 30px; 
+             color: aliceblue;
+        }
+        .div1{
+            text-align: center;
+            margin: 70px;
+        }
+        .section1{
+            height: 800px;
+        }
+        .section2{
+            background-color: black;
+            height: 800px;
+            border: 1px bisque solid;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        .div2{
+            background-image: url(rDJegQJaCyGaYysj2g5XWY.jpg);
+            background-size:cover;
+            height: 800px;
+        }
+        .div3{
+            background-color: rgba(0, 0,0,0.9);
+            height: 800px;
+        }
+        .p3{
+            color: bisque;
+            font-size: 40px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .img1{
+            text-align: center;
+            padding: 20px;
+            margin: 20px;
+        }
+        .p4{
+            color: bisque;
+            font-size: 20px;
+        }
+        .b2{
+            background-color: red;
+            color: aliceblue;
+            margin-top: 20px;
+            padding: 10px;
+            border: 2px red solid;
+        }
+        .in1{
+            padding: 10px 50px 10px 50px;
+            background-color: rgba(0, 0,0,0.9);
+            border: 1px white solid;
+            color: antiquewhite;
+        }
+        .img1,.img2,.img3,.img4,.img5{
+            animation: run 10s forwards;
+        }
+        .img1:nth-child(1){
+            animation-delay: 1s;
+            opacity: 0;
+        }
+        .img2:nth-child(2){
+            animation-delay: 2s;
+            opacity: 0;
+        }
+        .img3:nth-child(3){
+            animation-delay: 3s;
+            opacity: 0;
+        }
+        .img4:nth-child(4){
+            animation-delay: 4s;
+            opacity: 0;
+        }
+        .img5:nth-child(5){
+            animation-delay: 5s;
+            opacity: 0;
+        }  
+        @keyframes run{
+            0%{opacity: 0;}
+            100%{opacity: 1;}
+        } 
+.section3
+{
+    background-image: url(rDJegQJaCyGaYysj2g5XWY.jpg);
+    background-size: cover;
+    border: 1px solid black;
+    height: 450px;
+    
+}
+.p
+{
+    background-color: rgba(0,0,0,0.6);
+    background-size: cover;
+    height: 500px;  
+
+}
+.form{
+    background-color: rgba(0,0,0,0.7);
+    height: 350px;
+    width: 500px;
+    margin-left: 45em;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.in{
+ font-size: 50px;
+ color: white;
+}
+.mail, .pass
+{
+    background-color: transparent;
+    background-color: rgba(0,0,0,0.8);
+    padding: 10px;
+    padding-right: 100px;
+    margin: 10px;
+    border: none;
+}
+.submit
+{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 6px 13px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.section4
+{
+    background-color: black;
+    background-size: cover;
+    height: 400px;
+    padding: 30px;
+}
+.p4
+{
+    color: white;
+}
+.col-4
+{
+    color: white;
+    text-decoration: underline;
+}
+.button2
+{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+    </style>
+</head>
+<body>
+    <section class="section1">
+    <div class="div2"> 
+    <div class="div3"> 
+        <ol>
+            <li><a href="#sign-in"><button class="b1" >Sign In</button></a></li>
+            <li><select name="dropdown" id="">
+                <option value="english">English</option>
+                <option value="marathi">Marathi</option>
+            </select></li>
+        </ol>
+    <img src="Logonetflix.png" alt="" height="150px" width="350px">
+    <div class="div1">
+    <p class="p1">See what's next</p>
+    <p class="p2">watch anywhere cancel anytime</p>
+    <button class="b2">watch free for 30 days</button>
+    </div> 
+  </div>
+</div>
+    </section>
+    <section class="section2">
+    <p class="p3">Unlimited movies,TV shows and more</p>
+    <div class="img">
+    <img src="the-prom-netflix-149579.jpg" alt="" height="450px" width="300px" style="margin: 15px;" class="img1">
+    <img src="The.Gray_.Man-Character.Posters-Ryan.Gosling.webp" alt="" height="450px" width="300px" style="margin: 15px;" class="img2">
+    <img src="main-qimg-7ceafbcf5493131e41899a5f54c3f473-lq.jpg" alt="" height="450px" width="300px" style="margin: 15px;" class="img3">
+    <img src="hello-goodbye-and-everything-in-between-2022-1670279044.png" alt="" height="450px" width="300px" style="margin: 15px;" class="img4">
+    <img src="img_2934.jpg" alt="" height="450px" width="300px" style="margin: 15px;" class="img5">
+     </div> 
+     <p class="p4">ready to watch? enter your email or restart you membership</p>
+     <input type="email" placeholder="Email Address" class="in1">
+     <button class="b2">Get Strated</button>
+    </section>
+    <section class="section3">
+        <div class="s1">
+           <br>
+            <form class="form" action="" id="sign-in">
+               <p class="in">Sign In</p>
+               <input  type="text" class="mail" placeholder="Enter your mail" ><br>
+               <input  type="text" class="pass" placeholder="Enter the password"><br>
+               <input type="submit" class="submit" value="login">
+           </form>
+       </div>
+       </section>
+               <section class="section4">
+                   <div class="container">
+                       <div class="row">
+                        <p class="p4"><u>Questions? Call 000-800-919-1694</u></p>
+                           <div class="col-4">
+                                  <p>FAQ</p> 
+                                  <p> Media Center </p>
+                                  <p> Ways to Watch </p>
+                                  <p> Cookie Preferences </p>
+                                  <p> Speed Test</p>
+                           </div>
+                           <div class="col-4">
+                                   <p>Account</p>
+                                   <p>Jobs</p>
+                                   <p>Privacy</p>
+                                   <p>Contact Us</p>
+                                   <p>Only on Netflix</p>    
+                           </div>
+                           <div class="col-4">
+                                   <p>Help Centre</p>
+                                   <p>Investor Relations</p>
+                                   <p>Terms of Use</p>
+                                   <p>Corporate Information</p>
+                                   <p>Legal Notices</p>
+                            </div>
+                       </div>
+                       <select name="net" class="button2">
+                           <option value="English">English</option>
+                           <option value="Marathi">Marathi</option>
+                        </select> <br> <br>
+                              <p class="NI">Netflix India</p>
+                             </section>
+                         </div>
+</body>
+</html>
